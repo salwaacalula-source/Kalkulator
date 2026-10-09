@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffe4ee;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.kalkulator {
+  width: 300px;
+  padding: 20px;
+  background: #fff7fa;
+  border-radius: 24px;
+  box-shadow: 0 10px 0 #f4a9c6;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  text-align: center;
+  color: #b81f5c;
+}
+
+#riwayat {
+  min-height: 20px;
+  text-align: right;
+  color: #b5638a;
+}
+
+#layar {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  background: #fff0f5;
+  border: 2px solid #ffc2d9;
+  border-radius: 14px;
+  text-align: right;
+  font-size: 32px;
+  font-weight: bold;
+  color: #5c1536;
+  overflow: hidden;
+}
+
+.tombol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 14px 0;
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #7a2048;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #f0c3d5;
+}
+
+button:hover {
+  background: #ffe4ee;
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #f0c3d5;
+}
+
+.operator {
+  background: #ffc2d9;
+}
+
+.sama {
+  background: #e8337a;
+  color: #ffffff;
+  box-shadow: 0 4px 0 #b81f5c;
+}
+
+.lebar {
+  grid-column: span 2;
+}
